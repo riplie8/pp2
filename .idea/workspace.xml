@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eff91f52-c7df-4aab-8c6c-e3b8180e7f6d" name="Changes" comment="first update" />
+    <list default="true" id="eff91f52-c7df-4aab-8c6c-e3b8180e7f6d" name="Changes" comment="first update">
+      <change afterPath="$PROJECT_DIR$/casting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concatenate strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/escape characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/format strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modify strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slicing strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,11 +59,20 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.assign multiple values.executor": "Run",
+    "Python.casting.executor": "Run",
     "Python.comments.executor": "Run",
+    "Python.concatenate strings.executor": "Run",
+    "Python.escape characters.executor": "Run",
+    "Python.format strings.executor": "Run",
     "Python.get started.executor": "Run",
     "Python.global variables.executor": "Run",
     "Python.home.executor": "Run",
+    "Python.modify strings.executor": "Run",
+    "Python.numbers.executor": "Run",
     "Python.output variables.executor": "Run",
+    "Python.python strings.executor": "Run",
+    "Python.slicing strings.executor": "Run",
+    "Python.string methods.executor": "Run",
     "Python.syntax.executor": "Run",
     "Python.variable names.executor": "Run",
     "Python.variables.executor": "Run",
