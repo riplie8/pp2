@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eff91f52-c7df-4aab-8c6c-e3b8180e7f6d" name="Changes" comment="lab4" />
+    <list default="true" id="eff91f52-c7df-4aab-8c6c-e3b8180e7f6d" name="Changes" comment="lab5">
+      <change afterPath="$PROJECT_DIR$/lab6/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,53 +51,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.assign multiple values.executor&quot;: &quot;Run&quot;,
-    &quot;Python.casting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.class1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classesTask2and3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classesTask4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classesTask5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classesTask6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.comments.executor&quot;: &quot;Run&quot;,
-    &quot;Python.concatenate strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.escape characters.executor&quot;: &quot;Run&quot;,
-    &quot;Python.format strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fucnTask3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.funcTask7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.get started.executor&quot;: &quot;Run&quot;,
-    &quot;Python.global variables.executor&quot;: &quot;Run&quot;,
-    &quot;Python.home.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modify strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.output variables.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pythonfunction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.slicing strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python.syntax.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variable names.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/riplie8/Documents/GitHub/pp2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.1.executor": "Run",
+    "Python.12.executor": "Run",
+    "Python.2.executor": "Run",
+    "Python.3.executor": "Run",
+    "Python.4.executor": "Run",
+    "Python.5.executor": "Run",
+    "Python.7.executor": "Run",
+    "Python.9.executor": "Run",
+    "Python.assign multiple values.executor": "Run",
+    "Python.casting.executor": "Run",
+    "Python.class1.executor": "Run",
+    "Python.classesTask2and3.executor": "Run",
+    "Python.classesTask4.executor": "Run",
+    "Python.classesTask5.executor": "Run",
+    "Python.classesTask6.executor": "Run",
+    "Python.comments.executor": "Run",
+    "Python.concatenate strings.executor": "Run",
+    "Python.escape characters.executor": "Run",
+    "Python.format strings.executor": "Run",
+    "Python.fucnTask3.executor": "Run",
+    "Python.funcTask1.executor": "Run",
+    "Python.funcTask11.executor": "Run",
+    "Python.funcTask12.executor": "Run",
+    "Python.funcTask13.executor": "Run",
+    "Python.funcTask14.executor": "Run",
+    "Python.funcTask2.executor": "Run",
+    "Python.funcTask4.executor": "Run",
+    "Python.funcTask5.executor": "Run",
+    "Python.funcTask6.executor": "Run",
+    "Python.funcTask7.executor": "Run",
+    "Python.get started.executor": "Run",
+    "Python.global variables.executor": "Run",
+    "Python.home.executor": "Run",
+    "Python.modify strings.executor": "Run",
+    "Python.numbers.executor": "Run",
+    "Python.output variables.executor": "Run",
+    "Python.palka.executor": "Run",
+    "Python.python strings.executor": "Run",
+    "Python.pythonfunction.executor": "Run",
+    "Python.rev.executor": "Run",
+    "Python.slicing strings.executor": "Run",
+    "Python.string methods.executor": "Run",
+    "Python.syntax.executor": "Run",
+    "Python.variable names.executor": "Run",
+    "Python.variables.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/riplie8/Documents/GitHub/pp2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
+    <configuration name="12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pp2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab6/12.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="home" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pp2" />
       <option name="ENV_FILES" value="" />
@@ -112,6 +152,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="palka" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pp2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab6/palka.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.palka" />
+        <item itemvalue="Python.12" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -168,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759445596806</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lab5">
+      <option name="closed" value="true" />
+      <created>1760637891158</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760637891158</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,7 +253,8 @@
     <MESSAGE value="second update" />
     <MESSAGE value="lab2" />
     <MESSAGE value="lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab3" />
+    <MESSAGE value="lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
