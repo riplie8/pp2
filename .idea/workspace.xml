@@ -63,6 +63,7 @@
     "Python.classesTask4.executor": "Run",
     "Python.classesTask5.executor": "Run",
     "Python.classesTask6.executor": "Run",
+    "Python.clock.executor": "Run",
     "Python.comments.executor": "Run",
     "Python.concatenate strings.executor": "Run",
     "Python.escape characters.executor": "Run",
