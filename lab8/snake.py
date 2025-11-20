@@ -15,9 +15,9 @@ class SNAKE:
             block_rect = pygame.Rect(x_pos, y_pos, cell_size, cell_size)
 
             if index == 0:
-                pygame.draw.rect(screen, (0, 100, 200), block_rect)  # Head
+                pygame.draw.rect(screen, (0, 100, 200), block_rect)
             else:
-                pygame.draw.rect(screen, (0, 150, 255), block_rect)  # Body
+                pygame.draw.rect(screen, (0, 150, 255), block_rect)
 
     def move_snake(self):
         if self.new_block == True:
@@ -44,7 +44,7 @@ class FRUIT:
 
     def draw_fruit(self):
         fruit_rect = pygame.Rect(int(self.pos.x * cell_size), int(self.pos.y * cell_size), cell_size, cell_size)
-        pygame.draw.rect(screen, (255, 0, 0), fruit_rect)  # Red fruit
+        pygame.draw.rect(screen, (255, 0, 0), fruit_rect)
 
     def randomize(self):
         self.x = random.randint(0, cell_number - 1)
@@ -57,7 +57,7 @@ class MAIN:
         self.snake = SNAKE()
         self.fruit = FRUIT()
         self.current_speed = 150
-        self.lvl_change = 15
+        self.lvl_change = 5
         self.level = 1
 
     def update(self):
@@ -66,7 +66,6 @@ class MAIN:
         self.check_fail()
 
     def draw_elements(self):
-        self.draw_grass()
         self.fruit.draw_fruit()
         self.snake.draw_snake()
         self.draw_score()
@@ -93,15 +92,15 @@ class MAIN:
         if level == 1:
             new_speed = 150
         elif level == 2:
-            new_speed = 125
-        elif level == 3:
             new_speed = 100
+        elif level == 3:
+            new_speed = 75
         elif level == 4:
-            new_speed = 85
+            new_speed = 50
         elif level == 5:
-            new_speed = 70
+            new_speed = 25
         elif level >= 6:
-            new_speed = 60
+            new_speed = 1
 
         if new_speed != self.current_speed:
             self.current_speed = new_speed
@@ -121,20 +120,6 @@ class MAIN:
         pygame.time.set_timer(SCREEN_UPDATE, self.current_speed)
         self.level = 1
 
-    def draw_grass(self):
-        grass_color = (167, 209, 61)
-        for row in range(cell_number):
-            if row % 2 == 0:
-                for col in range(cell_number):
-                    if col % 2 == 0:
-                        grass_rect = pygame.Rect(col * cell_size, row * cell_size, cell_size, cell_size)
-                        pygame.draw.rect(screen, grass_color, grass_rect)
-            else:
-                for col in range(cell_number):
-                    if col % 2 != 0:
-                        grass_rect = pygame.Rect(col * cell_size, row * cell_size, cell_size, cell_size)
-                        pygame.draw.rect(screen, grass_color, grass_rect)
-
     def draw_score(self):
         score_text = str(len(self.snake.body) - 3)
         score_surface = game_font.render(score_text, True, (56, 74, 12))
@@ -151,8 +136,7 @@ class MAIN:
         level_text = f"Level: {self.level}"
         level_surface = game_font.render(level_text, True, (56, 74, 12))
 
-        # Position it at the top-right
-        level_x = int(cell_size * cell_number - 80)  # Adjusted x for "Level: X"
+        level_x = int(cell_size * cell_number - 80)
         level_y = int(40)
         level_rect = level_surface.get_rect(center=(level_x, level_y))
         bg_rect = pygame.Rect(level_rect.left - 10, level_rect.top - 5, level_rect.width + 20, level_rect.height + 10)
